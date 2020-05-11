@@ -17,3 +17,9 @@ if __name__ == '__main__':
     print(dom.nome)
     for filho in dom.filhos:
         print(filho.nome)
+
+    dom.sobrenome = 'Oliveira'
+    print(dom.sobrenome)
+    del dom.filhos
+    print(dom.__dict__)
+    print(miguel.__dict__)
